@@ -1,11 +1,5 @@
 # JAVA_2nd_activity
+2022/09/14 Activity
 
-GROUP 1 SD 202
-
-COLLABORATORS:
-
-RUBBY JANE DOCLARA
-
-CHRISTINE MARTONIA
-
-BEBIE GRACE BALBUENA
+Superclass: Animal
+Child class: Cat, Goat, Parrot
