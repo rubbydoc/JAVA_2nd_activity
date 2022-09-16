@@ -16,6 +16,12 @@ public class Main{
         Parrot p = new Parrot("Pipay", 2, 2);
        
     }
+    
+    public static double divide(double a, double b) {
+        return a / b;
+    }
+
+
 
     public double add(double a, double b){
         return a + b;
@@ -65,29 +71,9 @@ public void display(){
     }
 }
 
-<<<<<<< HEAD
-=======
-    public static double divide(double a, double b) {
-        return a / b;
-    }
-=======
-   
->>>>>>> e06815bb4cc95000e35613e81ddd8e79704d6011
-}
 
-
-
-
-
-
-<<<<<<< HEAD
->>>>>>> feature/division
-=======
-
+  
        
 
 
       
-
-
->>>>>>> e06815bb4cc95000e35613e81ddd8e79704d6011
