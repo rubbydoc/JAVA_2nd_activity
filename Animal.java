@@ -22,11 +22,11 @@ public class Animal{
 
 //setter
     public String setName(String name){
-    this.name = name;
+    return this.name = name;
     }
 
     public int setNumOfFeet(int numOfFeet){
-    this.numOfFeet = numOfFeet;
+    return this.numOfFeet = numOfFeet;
     }
 
 //function
