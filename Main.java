@@ -1,11 +1,7 @@
 import java.util.Scanner;
 
 public class Main{
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> e06815bb4cc95000e35613e81ddd8e79704d6011
     public static void main(String[] args){
         Main m = new Main();
         m.display();
@@ -17,7 +13,7 @@ public class Main{
        
     }
     
-    public static double divide(double a, double b) {
+    public double divide(double a, double b) {
         return a / b;
     }
 
