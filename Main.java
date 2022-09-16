@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
+        Main m = new Main();
+        m.display();
        
     }
 
@@ -35,16 +37,16 @@ public void display(){
 
     if (operator.equals("a") || operator.equals("A")){
         
-        System.out.println("Sum is: " + add.add(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
+        System.out.println("Sum is: " + add(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
     }
     else if (operator.equals("b") || operator.equals("B")) {
-        System.out.println("Difference is: " + minus.subtract(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
+        System.out.println("Difference is: " + subtract(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
        
     }else if (operator.equals("c") || operator.equals("C")) {
-        System.out.println("Quotient is: " + divide.divide(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
+        System.out.println("Quotient is: " + divide(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
        
     }else if (operator.equals("d") || operator.equals("D")) {
-        System.out.println("Product is: " + multiply.multiply(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
+        System.out.println("Product is: " + multiply(Double.parseDouble(firstNum), Double.parseDouble(secondNum)) );
     }
 }
 
