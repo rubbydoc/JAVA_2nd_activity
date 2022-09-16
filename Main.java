@@ -4,6 +4,11 @@ public class Main{
     public static void main(String[] args){
         Main m = new Main();
         m.display();
+
+        Animal a = new Animal("Sofi",4);
+        Cat c = new Cat("Mingkoy",4,12);
+        Goat g = new Goat("Fredie",4,2);
+        Parrot p = new Parrot("Pipay", 2, 2);
        
     }
 
