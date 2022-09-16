@@ -22,6 +22,11 @@ public class Main{
         return a - b;
     }
 
+    public double multiply(double a, double b){
+        return a * b;
+        
+        }
+
     
 public void display(){
     Scanner s = new Scanner(System.in);  // Create a Scanner object
@@ -68,3 +73,5 @@ public void display(){
 
 
       
+
+
